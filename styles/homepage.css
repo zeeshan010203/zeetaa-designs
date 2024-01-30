@@ -1,0 +1,128 @@
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+/* Positioning for input below h1 */
+input {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    margin: 10px; 
+    width: 200px;
+    height: 50px;
+}
+
+nav {
+    width: 250px;
+    height: 75vh;
+    top: 150px; /* Adjust the top position as needed */
+    left: 0;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0; /* Fix the padding property */
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+
+nav a:hover {
+    background-color: #eee;
+}
+
+main {
+    display: block;
+    width: calc(100% - 270px);
+    min-height: 90vh;
+    background-color: #f8f8f8;
+    margin-left: 270px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 300px; /* You may adjust the height as needed */
+    margin-top: 20px; /* Adjust the margin-top value to move the main section closer to the textarea */
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none; /* Remove top border */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.zee {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 5px;
+}
+textarea {
+    height: 99px;
+    margin: 15px 0;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    position: relative;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Optional: Add box shadow for a subtle effect */
+textarea:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}   
+
+.zee2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 5px; 
+}
+.header-block {
+    height: 30px;
+    width: 1325;
+    background-color: #f8f8f8;
+    top: 0;
+    left: 270px;
+    background-color: #b0aeae
+}
+
+select{
+    position: left;
+}

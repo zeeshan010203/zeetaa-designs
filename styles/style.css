@@ -1,0 +1,226 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.taa {
+    background-color: #fff;
+    border-radius: 12px; /* Increased border-radius for rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased box-shadow for a more pronounced effect */
+    padding: 40px; /* Increased padding for a larger box */
+    text-align: center;
+    max-width: 600px; /* Increased max-width for a larger box */
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 30px; /* Increased margin-right for more separation */
+}
+
+h1 {
+    color: black;
+    font-size: 40px; /* Increased font size */
+    margin-bottom: 20px; /* Increased margin-bottom for better spacing */
+}
+
+p {
+    color: #1c1e21;
+    font-size: 20px; /* Increased font size */
+    margin: 0;
+}
+
+section {
+    max-width: 600px; /* Increased max-width for a larger box */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 28px; /* Increased font size */
+    margin-bottom: 30px; /* Increased margin-bottom for better spacing */
+    color: #1c1e21;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 12px; /* Increased border-radius for rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased box-shadow for a more pronounced effect */
+    padding: 40px; /* Increased padding for a larger box */
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px; /* Increased margin-bottom for better spacing */
+    color: #1c1e21;
+}
+
+input {
+    width: 100%;
+    padding: 15px; /* Increased padding for better spacing */
+    margin-bottom: 30px; /* Increased margin-bottom for better spacing */
+    box-sizing: border-box;
+    border: 2px solid #ddd; /* Increased border size for better visibility */
+    border-radius: 8px; /* Increased border-radius for rounded corners */
+}
+
+button {
+    padding: 20px 50px; /* Increased padding for a larger button */
+    border: 0;
+    border-radius: 12px; /* Increased border-radius for rounded corners */
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px; /* Increased font size */
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #020c13;
+    box-shadow: 0 0 25px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #0b0c0c;
+    transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+button:hover {
+    background-color: #ca4ca0;
+}
+
+button:last-child {
+    background-color: #000000;
+    margin-top: 30px; /* Increased margin-top for better spacing */
+}
+
+button:last-child:hover {
+    background-color: #ca4ca0;
+}
+@media (max-width: 400px) {
+    
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taa {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    display: none;
+}
+
+section {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #1c1e21;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1c1e21;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #020c13;
+    box-shadow: 0 0 10px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #0b0c0c;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+button:hover {
+    background-color: #ca4ca0;
+}
+
+button:last-child {
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+button:last-child:hover {
+    background-color: #ca4ca0;
+}
+}
+    

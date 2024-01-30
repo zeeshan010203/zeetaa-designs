@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+p {
+    color: #1c1e21;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #1c1e21;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 15px 40px; /* Increased padding for a larger button */
+    border: 0;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold; /* Corrected typo in "Bold" to "bold" */
+    font-size: 20px; /* Increased font size */
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color:#ca4ca0;/* Slightly darker blue on hover */
+}

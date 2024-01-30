@@ -1,0 +1,211 @@
+ h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px; /* Adjust the margin as needed */
+}
+
+/* Positioning for input below h1 */
+ input {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  margin: 10px; 
+  width: 200px;
+  height: 50px;
+ }
+
+nav {
+  width: 250px;
+  height: 90vh;
+  top: 150px; /* Adjust the top position as needed */
+  left: 0;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0; /* Fix the padding property */
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 25px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold; /* Bold text */
+  font-size: 18px; /* Adjust the font size as needed */
+}
+h2 {
+  position:fixed /* Positioning it absolutely */
+  width: 1000px; 
+  background-color:#e0e0e0 /* Background color */
+  padding: 10px; 
+  margin:auto; 
+  box-sizing: border-box; 
+  text-align:center;
+}
+
+button {
+  background-color: #010204;
+  color: #fff;
+  padding: 16px;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ca4ca0;
+}       
+nav a:hover {
+  background-color: #eee;
+}
+  main {
+    display: block; /* Normal document flow, not flex */
+    width: calc(100% - 270px); 
+    min-height: 90vh; 
+    background-color: #f8f8f8; 
+    margin-left: 270px; 
+    padding: 30px; 
+    box-sizing: border-box; 
+    overflow-y: auto; 
+    height: 300px; ;
+    margin-top: 50px;
+}
+
+
+
+  article .message {
+    background-color: #e0e0e0; 
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 20px; 
+    max-width: 70%; 
+    word-wrap: break-word; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  article .message.sent { 
+    background-color: #98a297; 
+    align-self: flex-end; 
+  }
+  article .message {
+    max-width: 70%;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  article .message.sent {
+    background-color: #cae8c9;
+    align-self: flex-end;
+  }
+  
+  article .message.received {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+  }
+  
+  .message-sender {
+    font-weight: bold;
+  }
+  
+  .message-content {
+    margin-left: 10px;
+  }
+  
+  .message-timestamp {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the form containing the textarea and the send button */
+  section form {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjusted styles for the textarea */
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+  
+  /* Adjusted styles for the send button */
+  button[type="submit"] {
+    background-color: #010204;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ca4ca0;
+  }
+
+  article .message.received { 
+    background-color: #f0f0f0; 
+    align-self: flex-start; 
+  }
+
+  article .scroll-to-bottom { 
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  article .scroll-to-bottom:hover {
+    background-color: #e0e0e0;
+  }
+
+  .chat-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 70vh;
+    overflow-y: scroll;
+    position: relative;
+    margin-top: 50px;
+  }
+  textarea {
+    width:70%;
+    height: 10%; /* Adjust the height as needed */
+    box-sizing: border-box;
+    resize: none; /* Prevent users from resizing the textarea */
+  }
