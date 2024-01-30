@@ -54,7 +54,18 @@ nav a {
 nav a:hover {
     background-color: #eee;
 }
-
+.buttonsignin{
+    background-color: #010204;
+    color: #fff;
+    padding: 16px;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+button:hover {
+    background-color: #ca4ca0;
+  }
 main {
     display: block;
     width: calc(100% - 270px);
@@ -72,7 +83,7 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.zee {
+.homeh2{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     height: 20px;
     font-weight: bold;
@@ -103,9 +114,8 @@ textarea:focus {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }   
 
-.zee2{
+.feedsh2{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    height: 20px;
     font-weight: bold;
     text-align: left;
     padding: 15px; /* Adjust padding as needed */
@@ -114,15 +124,58 @@ textarea:focus {
     width: auto;
     margin-left: 5px; 
 }
-.header-block {
-    height: 30px;
-    width: 1325;
-    background-color: #f8f8f8;
-    top: 0;
-    left: 270px;
-    background-color: #b0aeae
-}
 
-select{
-    position: left;
+.section{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 15px; 
+    margin-left: 5px; 
+    width: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    width: 70%;
+    margin-left: 1rem;
+}
+.zeeshan{
+    font-weight: bold;
+    display: flex;  
+    gap: 1rem;
+}
+.zeeshan span{
+    font-weight:lighter ;
+    padding: 10px;
+}
+.button-likes{
+    background-color: #010204;
+    color: #fff;
+    padding: 16px 25px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    transition: background-color 0.3s
+
+}
+.button-delete{
+    background-color: #ba3333;
+    color: #fff;
+    padding: 16px 25px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+.post-button{
+    background-color: #010204;
+    color: #fff;
+    padding: 16px 25px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    transition: background-color 0.3s
+    float: right;
+    margin-top: 10px; 
+    margin-right: 1px; 
+}
+section{
+    margin-bottom: 2rem;
 }
