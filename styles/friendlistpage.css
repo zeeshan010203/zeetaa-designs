@@ -1,0 +1,128 @@
+h2 {
+    font-size: 50px;
+    margin-left: 450px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.profilename {
+    font-weight: 800;
+    font-size:30px;
+    text-align:left;
+    margin-left: 10rem;
+    height: 10px;
+}
+
+article {
+    width: 80%;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+article section {
+    width: 30%;
+    min-width: 250px;
+}
+
+button{
+    display: flex;
+    margin-left:240px;
+}
+.profilebutton {
+padding: 15px 67px; /* Increased padding for a larger button */
+border: 0;
+border-radius: 10px;
+background-color: #000000;
+color: #ffffff;
+font-weight: bold; /* Corrected typo in "Bold" to "bold" */
+font-size: 20px; /* Increased font size */
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+ margin-left: 150px;
+
+}
+.messagebutton{
+    padding: 15px 78px; /* Increased padding for a larger button */
+    border: 0;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold; /* Corrected typo in "Bold" to "bold" */
+    font-size: 20px; /* Increased font size */
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+     margin-left: 150px;
+     margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #c342c3;
+}
+.removefriendbutton{
+    padding: 15px 50px; /* Increased padding for a larger button */
+    border: 0;
+    border-radius: 10px;
+    background-color: #d3d0d0;
+    color: #ffffff;
+    font-weight: bold; /* Corrected typo in "Bold" to "bold" */
+    font-size: 20px; /* Increased font size */
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+     margin-left: 150px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+}
+section{
+    margin-left: 30px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+    border-radius: 5px;
+    padding-top: 1rem;
+}
+p{
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 2px;
+}
+/* Media query for responsiveness */
+@media (max-width: 1500px) {
+    h2 {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .profilename {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    article section {
+        width: 100%; /* Adjusted width for better responsiveness on small screens */
+    }
+
+    button {
+        margin-left: 10px;
+    }
+
+    .profilebutton,
+    .messagebutton,
+    .removefriendbutton {
+        padding: 15px 10px;
+        margin-left: 10px;
+    }
+
+    p {
+        margin-left: 10px;
+    }
+}
