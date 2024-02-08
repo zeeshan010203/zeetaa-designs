@@ -1,0 +1,142 @@
+
+.nav1 {
+    width: 250px;
+    height: 45vh;
+    top: 150px; /* Adjust the top position as needed */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-top: 2rem;
+}
+
+.nav1 ul {
+    list-style: none;
+    padding: 0; /* Fix the padding property */
+    margin: 0;
+}
+
+.nav1 li {
+    margin-bottom: 25px;
+}
+
+.nav1, a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+
+.nav1 a:hover {
+    background-color: #eee;
+}
+.nav2{
+    width: 250px;
+    height:15vh;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-top: 2rem;
+    
+}
+.nav2 ul {
+    list-style: none;
+    padding: 2px; 
+    margin: 3px;
+}
+.nav1 li {
+    margin-bottom: 10px;
+}
+.nav2 a:hover {
+    background-color: #eee;
+}
+.signinbutton{
+    padding: 10px 15px; /* Increased padding for a larger button */
+    border: 0;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #e2e0e2;
+    font-weight: bold; /* Corrected typo in "Bold" to "bold" */
+    font-size: 15px; /* Increased font size */
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+     margin-left: 8px;
+     margin-bottom: 20px;
+}
+.signinbutton:hover {
+    background-color: #c342c3;
+}
+article {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 90vh;
+    float: right;
+    clear: right;
+    margin-top: 5rem;
+    margin-right: 20px;
+}
+   
+.allnav{
+    width: 10%;
+    height: auto;
+    float: left;
+}
+section{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 30px;
+}
+textarea {
+    height: 99px;
+    margin: 15px 0;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    position: relative;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 2;
+}
+button{
+    background-color: #010204;
+    color: #fff;
+    padding: 16px 25px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top:1rem; 
+    margin-right: 1px; 
+    margin-bottom: 20px;
+}
+p{
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #ca4ca0;
+  }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="__className_cb35e5">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles/settings.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zeetaa</title>
+    <meta name="description" content="Social media application" />
+  </head>
+  <body>
+    <div class="allnav">
+      <header>
+        <img alt="image of the user" loading="lazy" src="./images/logo.png" />
+        <nav class="nav1">
+          <ul>
+            <li><a href="/en/home">Home</a></li>
+            <li><a href="/en/notifications">Notifications</a></li>
+            <li><a href="/en/friends">Friends</a></li>
+            <li><a href="/en/profile/takish155">Profile</a></li>
+            <li>
+              <a data-test="nav-settings" href="/en/settings">Settings</a>
+            </li>
+            <li>
+              <button data-test="signout" class="signinbutton">Sign Out</button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <h2 class="settingh2">Settings</h2>
+      <nav class="nav2">
+        <ul>
+          <li><a href="/en/settings">Account</a></li>
+          <li>
+            <a data-test="nav-details" href="/en/settings/personal_details"
+              >Personal Details</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <article>
+        <section>
+          <h2>Bio</h2>
+          <p>Tell us about yourself for people to know you better!</p>
+          <div>
+            <form>
+              <textarea name="bio"></textarea>
+              <p></p>
+              <button type="submit" class="savebutton">Save</button>
+            </form>
+          </div>
+        </section>
+        <section>
+          <h2>Sign Out</h2>
+          <p>
+            You will be signed out of your account. You can sign back in
+            anytime.
+          </p>
+          <button>Sign Out</button>
+        </section>
+        <section>
+          <h2>Delete Account</h2>
+          <p>
+            Deleting your account will permanently remove all of your data from
+            Zeetaa. This action cannot be undone.
+          </p>
+          <button>Delete Account</button>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
